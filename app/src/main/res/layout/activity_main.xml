@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/adv"
+        android:layout_width="wrap_content"
+        android:layout_height="215dp"
+        android:layout_marginTop="-17dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/adv" />
+
+    <ImageView
+        android:id="@+id/option1"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/adv"
+        android:layout_marginStart="40dp"
+        android:gravity="right"
+        android:onClick="adv"
+        android:src="@drawable/option1" />
+
+    <ImageView
+        android:id="@+id/option2"
+        android:layout_width="160dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/adv"
+        android:layout_marginStart="225dp"
+        android:gravity="right"
+        android:onClick="courses"
+        android:src="@drawable/option2" />
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-88dp"
+        android:src="@drawable/bar" />
+
+    <ImageView
+        android:id="@+id/bar1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="-90dp"
+        android:onClick="info"
+        android:src="@drawable/bar1" />
+
+    <ImageView
+        android:id="@+id/bar2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginBottom="-95dp"
+        android:onClick="home"
+        android:src="@drawable/bar2" />
+
+    <ImageView
+        android:id="@+id/bar3"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/option2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="-97dp"
+        android:onClick="user"
+        android:src="@drawable/bar3" />
+
+</RelativeLayout>
